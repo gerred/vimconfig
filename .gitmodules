@@ -1,0 +1,27 @@
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/vim-makegreen"]
+	path = bundle/vim-makegreen
+	url = git@github.com:garybernhardt/vim-makegreen.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9
+[submodule "bundle/vim-fuzzyfinder"]
+	path = bundle/vim-fuzzyfinder
+	url = https://github.com/clones/vim-fuzzyfinder
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "bundle/vim-eunuch"]
+	path = bundle/vim-eunuch
+	url = https://github.com/tpope/vim-eunuch.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
