@@ -367,7 +367,7 @@ function! OpenChangedFiles()
   let filenames = split(status, "\n")
   exec "edit " . filenames[0]
   for filename in filenames[1:]
-    exec "sp " . filename
+    exec "vsp " . filename
   endfor
 endfunction
 command! OpenChangedFiles :call OpenChangedFiles()
