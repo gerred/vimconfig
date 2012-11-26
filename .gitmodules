@@ -31,3 +31,12 @@
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = git@github.com:kchmck/vim-coffee-script
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git@github.com:digitaltoad/vim-jade
+[submodule "bundle/vim-stylus"]
+	path = bundle/vim-stylus
+	url = git@github.com:wavded/vim-stylus
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = git@github.com:wookiehangover/jshint.vim
