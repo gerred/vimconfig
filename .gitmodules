@@ -43,3 +43,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git@github.com:corntrace/bufexplorer
+[submodule "bundle/taglist.vim"]
+	path = bundle/taglist.vim
+	url = git@github.com:vim-scripts/taglist.vim

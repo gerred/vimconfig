@@ -297,7 +297,6 @@ nnoremap <leader>. :call OpenTestAlternate()<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>t :call RunTestFile()<cr>
 map <leader>T :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
 map <leader>c :w\|:!script/features<cr>
@@ -382,10 +381,11 @@ command! InsertTime :normal a<c-r>=strftime('%F %H:%M:%S.0 %z')<cr>
 """"""""""""""""""""""
 " Git Blame command
 """"""""""""""""""""""
+map <leader>t :TlistToggle<cr>
 
 function! GitBlame() range
   exec ":!git blame % -L " . a:firstline . "," . a:lastline
 endfunction
 command! GitBlame :call GitBlame()
 
-map <leader>b :call GitBlame()<cr>
+" map <leader>b :call GitBlame()<cr>
