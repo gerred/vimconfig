@@ -46,3 +46,9 @@
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git@github.com:vim-scripts/taglist.vim
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
