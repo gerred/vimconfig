@@ -1,9 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/gerred/dev/node-data-importer'
-let g:netrw_dirhist_2='/Users/gerred/dev/itriage-web'
-let g:netrw_dirhist_3='/Users/gerred/dev/itriage3/config/deploy'
-let g:netrw_dirhist_4='/Users/gerred/dev/itriage3'
-let g:netrw_dirhist_5='/Users/gerred/dev/itriage3/spec'
-let g:netrw_dirhist_6='/Users/gerred/dev/node_scraper'
-let g:netrw_dirhist_7='/Users/gerred/dev/itriage3/spec'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/gerred/dev/dakken_worker'
+let g:netrw_dirhist_2='/Users/gerred/dev/dokku/buildstep'
+let g:netrw_dirhist_3='/Users/gerred/dev/buildstep'
